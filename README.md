@@ -1,5 +1,7 @@
 # homebrew-confluent-platform
 
+[![Build Status](https://travis-ci.org/sgerrand/homebrew-confluent-platform.svg?branch=master)](https://travis-ci.org/sgerrand/homebrew-confluent-platform)
+
 This formula installs the [open source edition of the Confluent
 Platform](https://www.confluent.io/product/confluent-open-source/).
 
