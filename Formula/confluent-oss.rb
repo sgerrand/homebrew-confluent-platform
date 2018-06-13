@@ -13,7 +13,6 @@ class ConfluentOss < Formula
     prefix.install "bin"
     rm_rf "#{bin}/windows"
     prefix.install "etc"
-    prefix.install "lib"
     prefix.install "share"
     prefix.install "src"
   end
