@@ -20,5 +20,6 @@ class ConfluentOss < Formula
 
   test do
     system "#{bin}/confluent", "current"
+    assert_match "schema-registry", shell_output("#{bin}/confluent list")
   end
 end
